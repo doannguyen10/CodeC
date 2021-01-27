@@ -1,0 +1,128 @@
+*{ box-sizing: border-box;
+}
+.html,
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+.header-navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 1528px;
+    height: 90px;
+    background-color: rgb(250, 56, 56);
+}
+.navbar-list {
+    display: ;
+    list-style: none;
+    text-decoration: none;
+    margin: 30px 10px 30px 0;
+    margin-right: 80px;
+    color: #ffffff;
+}
+.navbar-list-item {
+    font-size: 30px;
+    margin-right: 80px;
+}
+.navbar-list-item-link{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.navbar-list-item-link:hover{
+    color: yellowgreen;
+}
+.between{
+    display: flex;
+    margin: 0  ;
+    justify-content: space-between;
+    margin: 0 220px 0 0;
+}
+.image{
+    width: 128px;
+    height: 128px;
+    margin: 10px 0 0 0;
+}
+.comment{
+    font-size: 20px;
+    margin:10;
+}
+.comment-email{
+    margin: 0;
+}
+.email{
+  margin: 0;
+}
+.input-email{
+    margin:0;
+    width: 220px;
+    height: 25px;
+}
+.comment-comment2{
+    margin: 0;
+}
+.comment2{
+    margin: 0;
+}
+.input-comment2{
+    margin:0;
+    width: 220px;
+    height: 100px;
+}
+.comment-rating{
+    display: flex;
+    margin: 0;
+}
+.input-rating{
+    margin: 20px 0 0 5px ;
+    width: 158px;
+    height: 25px;
+}
+.comment-end{
+    margin: 0;
+}
+.button{
+    width: 60px;
+    height: 30px;
+    background-color: dimgray;
+}
+.under{
+    display: flex;
+    margin-top: 10px ;
+}
+.under-navbar{
+    margin-top: 140px;
+    width: 1528px;
+    height: 60px;
+    background-color: silver;
+}
+.text{
+    color: red;
+    font-size: 20px;
+}
+.under-list{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px 10px 30px 0;
+
+    color: #ffffff;
+}
+.under-list-item{
+    margin-right: 80px;
+}
+.under-list-item-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.under-list-item-link:hover{
+    color: white;
+}
